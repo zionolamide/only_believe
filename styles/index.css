@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    /* background: url("554737.jpg"); */
+    margin: 0;
+    height: 100%;
+    font-family: Arial;
+    font-size: 17px;
+}
+.container {
+   
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: -moz-center;
+    height: 100%;
+    
+}
+.goog-tooltip{
+    display: none !important;
+}
+.goog-tooltip:hover{
+    display: none !important;
+}
+.goog-tooltip-highlight{
+    background-color: transparent !important;
+    border:none !important;
+    box-shadow: none !important;
+}
+.column {
+    float: left;
+    width: 33.33%;
+     /* Should be removed. Only for demonstration */
+}
+h3{
+    color:ghostwhite;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    font-size: 50px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    h3{
+        color:ghostwhite;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        position: absolute;
+        left: 50%;
+        font-size: 50px;
+    }
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: -moz-center;
+    height: 100%;
+    
+}
+
+}
+
+

@@ -1,0 +1,31 @@
+
+.copyright{
+    font-size: 13px;
+    font-weight: 700;
+    margin-top:18px;
+    padding: 20px 36px;
+    color:rgba(5, 104, 107, 0.651);
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    /* background: linear-gradient(-40deg, #056857, #068a6d, #056857, #068a6d, #056857, #068a6d); */
+ }
+ a{
+    color:rgb(5, 104, 107);
+ }
+ .headers{
+   background-color: aqua;
+   border: 1px solid black;
+   padding: 5px;
+   border-radius: 5px;
+ }
+ .total{
+    margin-top: 12px;
+ }
+ .modal-header {
+   background-image: linear-gradient(to right, rgb(12, 181, 211), rgb(37, 203, 233), rgb(68, 218, 245),rgb(12, 181, 211), rgb(37, 203, 233), rgb(68, 218, 245),rgb(12, 181, 211), rgb(37, 203, 233), rgb(68, 218, 245),rgb(12, 181, 211), rgb(37, 203, 233), rgb(68, 218, 245));
+   color: white;
+   padding-top: 6px;
+   padding-bottom: 0px;
+   font-size: 13px;
+ }

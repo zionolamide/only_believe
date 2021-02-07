@@ -1,0 +1,594 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  
+} 
+body {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  margin:0;
+  top:0px !important;
+
+  transition: background-color .5s;
+}
+.goog-te-banner-frame.skiptranslate{
+  display:none !important;
+}
+.topnav{
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(to right, rgb(12, 181, 211), rgb(37, 203, 233), rgb(68, 218, 245),rgb(12, 181, 211), rgb(37, 203, 233), rgb(68, 218, 245),rgb(12, 181, 211), rgb(37, 203, 233), rgb(68, 218, 245),rgb(12, 181, 211), rgb(37, 203, 233), rgb(68, 218, 245));
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.384);
+  width: 100%;
+  padding: 14px;
+  position: fixed;
+  }
+  .home{
+  width: 29px;
+margin-top: 3px;
+float: right;
+/* margin-right: -18px; */
+  }
+  .sidenav_img{
+    width: 27px;
+    
+    margin-left: -11px;
+  }
+
+.topnav .a{
+
+  color: rgb(184, 244, 252);
+  text-align: center;
+
+  text-decoration: none;
+  font-size: 21px;
+
+}
+.note{
+  height: 40px;
+  margin: -13px -2px;
+  width: 30px;
+  /* float: left; */
+}
+.topnav-right{
+  float:right;
+
+}
+.slider{
+  width: 100%; 
+  margin-top: -30px; 
+  height: 189px;
+}
+.goog-logo-link{
+  display:none !important;
+}
+.goog-te-gadget{
+  color:transparent !important;
+ 
+}
+#google_translate_element{
+  position: absolute;
+  margin-left: -146px;
+ 
+}
+@media screen and (max-width: 500px) {
+  .topnav .a {
+    float: none;
+    margin-right: -65px;
+    text-align: left;
+  }
+  .topnav-right {
+
+    text-align: center;
+  }
+.home{
+  width: 29px;
+margin-top: 3px;
+float: right;
+
+}
+  
+.topnav{
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(to right, rgb(12, 181, 211), rgb(37, 203, 233), rgb(68, 218, 245),rgb(12, 181, 211), rgb(37, 203, 233), rgb(68, 218, 245),rgb(12, 181, 211), rgb(37, 203, 233), rgb(68, 218, 245),rgb(12, 181, 211), rgb(37, 203, 233), rgb(68, 218, 245));
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.384);
+  width: 100%;
+  padding: 19px;
+  position: fixed;
+  }
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidenav{
+  position: fixed;
+  width:0;
+  height: 100%;
+  padding: 30px 0;
+  background: linear-gradient(-40deg,rgb(3, 204, 240), rgb(16, 210, 245), rgb(43, 213, 243),rgb(35, 209, 240), rgb(37, 203, 233), rgb(68, 218, 245),rgb(12, 181, 211), rgb(37, 203, 233), rgb(30, 202, 233),rgb(8, 194, 226), rgb(16, 210, 245), rgb(3, 204, 240) );
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+
+}
+.goog-tooltip{
+  display: none !important;
+}
+.goog-tooltip:hover{
+  display: none !important;
+}
+.goog-tooltip-highlight{
+  background-color: transparent !important;
+  border:none !important;
+  box-shadow: none !important;
+}
+.wrapper .sidenav h2{
+  color: rgba(0, 0, 0, 0.767);
+  /* text-transform: uppercase; */
+  text-align: center;
+  margin-bottom: 30px ;
+}
+
+.navbar-center a {
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+}
+  
+.wrapper .sidenav ul li{
+  padding: 15px;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(225,225,225,0.05);
+  
+}
+  
+.wrapper .sidenav ul li .a{
+  color: rgba(0, 0, 0, 0.507);
+  display: block;
+transition: 0.3s;
+font-size: 18px;
+}
+  
+.sidenav .a:hover{
+  color:rgb(248, 244, 244);
+}
+.wrapper .sideNav ul li:hover .a{
+  color: #fff;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left:200px;
+
+}
+
+.wrapper .top_nav{
+  width:100%;
+}
+.sidenav ul .a{
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 100px;
+}
+.sidenav .closebtn{
+  position: absolute;
+  top: -25px;
+  right: 4px;
+  font-size: 36px;
+  text-decoration: none;
+  color: black;
+  border-right: none;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  height: 40px;
+  width: 42px;
+  background: rgba(70, 234, 240, 0.562);
+  padding-left: 10px;
+
+}
+.myspan{
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  border-radius: 50%;
+  height: 16px;
+  width: 15px;
+  background: rgb(105, 227, 231) none repeat scroll 0% 0%;
+  padding-left: 10px;
+}
+.sidenav .settings{
+  position: absolute;
+  top: -25px;
+  left: 4px;
+  border-radius: 50%;
+  height: 40px;
+  width: 42px;
+  background: rgba(70, 234, 240, 0.562);
+
+  padding-left: 10px;
+}
+
+.outer_side1{
+
+  position: absolute;
+  top: -28px;
+  left: 1px;
+  font-size: 36px;
+  text-decoration: none;
+  height: 47px;
+  width: 48px;
+  background: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+  border-radius: 50%;
+  animation: rotate 2s ease infinite;
+  
+}
+.outer_side2{
+
+  position: absolute;
+  top: -28px;
+  left: 1px;
+  font-size: 36px;
+  text-decoration: none;
+  height: 47px;
+  width: 48px;
+  background: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+  border-radius: 50%;
+  animation: rotate 2s ease infinite;
+}
+.outer_side{
+  position: absolute;
+  top: -28px;
+  right: 1px;
+  font-size: 36px;
+  text-decoration: none;
+  height: 47px;
+  width: 48px;
+  background: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+  border-radius: 50%;
+  animation: rotate 2s ease infinite;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); 
+}
+.inner_side_mail{
+  margin-top: -44px;
+  margin-left: 3px;
+  border-radius: 50%;
+  height: 40px;
+  width: 42px;
+  background: rgba(70, 234, 240, 0.562); 
+  padding-left: 10px;
+}
+.outer_side_mail{
+  margin-top: -76px;
+  right: 251px;
+  font-size: 36px;
+  text-decoration: none;
+  height: 47px;
+  width: 48px;
+  background: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+  border-radius: 50%;
+  animation: rotate 2s ease infinite;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); 
+}
+
+.inner_side_phone{
+  margin-top: -44px;
+  margin-left: 3px;
+  border-radius: 50%;
+  height: 40px;
+  width: 42px;
+  background: rgba(70, 234, 240, 0.562); 
+  padding-left: 10px;
+}
+.outer_side_phone{
+  margin-top: 29px;
+  right: 251px;
+  font-size: 36px;
+  text-decoration: none;
+  height: 47px;
+  width: 48px;
+  background: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+  border-radius: 50%;
+  animation: rotate 2s ease infinite;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); 
+}
+
+.inner_side_instagram{
+  margin-top: -44px;
+  margin-left: 3px;
+  border-radius: 50%;
+  height: 40px;
+  width: 42px;
+  background: rgba(70, 234, 240, 0.562); 
+  padding-left: 10px;
+}
+.outer_side_instagram{
+  margin-top: 29px;
+  right: 251px;
+  font-size: 36px;
+  text-decoration: none;
+  height: 47px;
+  width: 48px;
+  background: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+  border-radius: 50%;
+  animation: rotate 2s ease infinite;
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); 
+}
+.mail_img{
+  height: 31px; 
+  margin-top: 5px; 
+  margin-left: -5px;
+}
+.instagram_img{
+  height: 29px;
+  margin-top: 6px;
+  margin-left: -4px;
+}
+.contact_img{
+  height: 35px; 
+  margin-top: 3px; 
+  margin-left: -7px;
+}
+.h1_mail{
+  margin-left: 53px;
+  font-size: 17px;
+  margin-top: -42px;
+  color:rgba(0, 0, 0, 0.767);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.a_mail{
+  font-size: 14px; 
+  margin-left: 53px;
+  color:rgba(34, 34, 34, 0.918);
+}
+.h1_phone{
+  margin-left: 53px;
+  font-size: 17px;
+  margin-top: -42px;
+  color:rgba(0, 0, 0, 0.767);
+}
+.a_phone{
+  font-size: 14px; 
+  margin-left: 53px;
+  color:rgba(34, 34, 34, 0.918);
+}
+.h1_instagram{
+  margin-left: 53px;
+  font-size: 17px;
+  margin-top: -42px;
+  color:rgba(0, 0, 0, 0.767);
+}
+.a_instagram{
+  font-size: 14px; 
+  margin-left: 53px;
+  color:rgba(34, 34, 34, 0.918);
+}
+.ul{
+  text-decoration: none; 
+  list-style-type: none;
+
+  padding: 4px;
+}
+div.sticky {
+
+  position: sticky;
+  top: 0;
+
+  font-size: 20px;
+}
+.left_arrow{
+  margin-top: -3px;
+  float: left;
+  transform: rotate(180deg);
+  font-size: 28px;
+  color: rgb(184, 244, 252);
+}
+#myInput{
+  padding: 8px 4px 8px 5px;
+  border: 1px solid #ddd;
+  border-radius: 24px;
+  width: 200px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  margin-left: 18px;
+  border: 2px solid rgb(100, 212, 240);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.288); 
+  margin-top: 12px;
+}
+.a{
+  font-size: 23px;
+}
+.sidenav .closebtn:hover{
+  
+  color:rgba(230, 82, 82, 0.685);
+}
+.heads{
+  margin-top: -31px;
+  text-align: -moz-center;
+  color:rgb(10, 158, 163);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288); 
+  position: relative;
+
+}
+.modal{
+  border-radius: 12px;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+}
+.modals{
+  border-radius: 12px;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+  border-radius: 12px;
+  margin-top: 294px;
+  background-color: #fefefe;
+  width: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+  color: #ff9784;
+  float: right;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: -4px;
+}
+.closeAbout{
+    color: #ff9784;
+  float: right;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: -4px;
+}
+
+.closeAbout:hover,
+.closeAbout :focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+  background-image: linear-gradient(to right, rgb(12, 181, 211), rgb(37, 203, 233), rgb(68, 218, 245),rgb(12, 181, 211), rgb(37, 203, 233), rgb(68, 218, 245),rgb(12, 181, 211), rgb(37, 203, 233), rgb(68, 218, 245),rgb(12, 181, 211), rgb(37, 203, 233), rgb(68, 218, 245));
+  color: white;
+  padding-top: 6px;
+  padding-bottom: 0px;
+  font-size: 13px;
+}
+.font{
+  vertical-align: inherit;
+  position: absolute;
+  margin-left: 32px;
+}
+.modal-body {
+  padding: 53px 19px 25px 12px;
+  
+  }
+  .active {
+    background-color: rgb(19, 129, 148);
+    border-right: 13px solid rgb(4, 68, 80);
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.384);
+    border-radius: 12px;
+    padding: 16px;
+    display: inherit;
+    color: ghostwhite;
+}
+.actives {
+  background-color: rgb(19, 129, 148);
+  border-right: 13px solid rgb(4, 68, 80);
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.384);
+  border-radius: 12px;
+  padding: 16px;
+
+  color: ghostwhite;
+}
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+  @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 14px;}
+  }
+  
+  
+  .fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade{
+  from {opacity: .4;}
+  to {opacity: 1;}
+  }
+  
+  @keyframes fade{
+  from {opacity: .4;}
+  to {opacity: 1;}
+  } 
+
+
+
+/************************NIGHT MODE CSS***************************************/

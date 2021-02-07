@@ -1,0 +1,257 @@
+.head{
+    color:rgb(10, 158, 163);
+    text-align:center;
+}
+
+audio{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.233);
+    border-radius: 26px;
+    width: 237px;
+    height: 38px;
+  
+    top: 94px;
+}
+.goog-tooltip{
+    display: none !important;
+}
+.goog-tooltip:hover{
+    display: none !important;
+}
+.goog-tooltip-highlight{
+    background-color: transparent !important;
+    border:none !important;
+    box-shadow: none !important;
+}
+.audio-container{
+    display: flex;
+    justify-content: center;
+    text-align: -moz-center;
+}
+.goog-te-banner-frame.skiptranslate{
+    display:none !important;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+} 
+
+body,html {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    margin:0;
+    height:100%;
+    top:0px !important;
+}  
+a{
+    color:rgb(5, 104, 107);
+    list-style-type: none;
+    text-decoration: none;
+} 
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+        
+    audio{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.233);
+        border-radius: 26px;
+        width: 237px;
+        height: 38px;
+        position: fixed;
+    }
+    div.container{
+        margin-top: 150px;
+    }
+    .goog-te-banner-frame.skiptranslate{
+        display:none !important;
+    }
+    
+
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(10, 158, 163);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200px;
+}
+h3{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:rgb(5, 104, 107);
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+.chorus{
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+div.next{
+
+    position: -webkit-sticky;
+    position: sticky;
+    bottom:0;
+    background-color: rgb(94, 207, 207);
+    padding: 0px 4px 0px 4px;
+    float:right;
+    border-radius: 4px;
+    font-size: 36px;
+    color:rgb(5, 104, 107);
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    
+}
+
+div.previous{
+
+    position: -webkit-sticky;
+    position: sticky;
+    bottom:0;
+    background-color: rgb(94, 207, 207);
+    padding: 0px 4px 0px 4px;
+    float:left;
+    border-radius: 4px;
+    font-size: 36px;
+    color:rgb(5, 104, 107);
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+  }
+span.left{
+    margin-top: 0px;
+    float: right;
+    transform: rotate(180deg);
+}
+span.right{
+    margin-top: -6px;
+    float: right;
+}
+  
+div.sticky {
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+}
+div.next{
+    margin-right: -38px;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom:0;
+    background-color: rgba(70, 234, 240, 0.562);
+    float: right;
+    border-radius: 50%;
+    font-size: 32px;
+    color: black;
+    /* border: 2px solid rgb(10, 158, 163); */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); */
+    height: 40px;
+    width: 42px;
+    padding-left: 11px;
+    padding-bottom: 35px;
+    padding-top: 2px;
+}
+  
+div.previous{
+    margin-left: -38px;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom:0;
+    background-color: rgba(70, 234, 240, 0.562);
+    float: left;
+    border-radius: 50%;
+    font-size: 32px;
+    color: black;
+    height: 40px;
+    width: 42px;
+    padding-left: 11px;
+}
+  
+.outer1{
+    position: sticky;
+    right: 7px;
+    font-size: 36px;
+    text-decoration: none;
+    height: 47px;
+    width: 48px;
+    background: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+    border-radius: 50%;
+    animation: rotate 2s ease infinite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    bottom: -4px;
+    float: right;
+    margin-top: -3px;
+}
+ 
+.outer2{
+    position: sticky;
+    left: 7px;
+    font-size: 36px;
+    text-decoration: none;
+    height: 47px;
+    width: 48px;
+    background: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+    border-radius: 50%;
+    animation: rotate 2s ease infinite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    bottom: -4px;
+    float: left;
+    margin-top: -3px;
+}
+i{
+    font-size: medium;
+}
+
+.container {
+    margin-top:100px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+.box{
+   margin-top:33px;
+   display: flex; 
+   justify-content: center;
+}
+.content{
+    border: 3px solid rgb(12, 181, 211);
+border-radius: 6px;
+padding: 5px 5px 5px;
+}
